@@ -4,6 +4,10 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Admin;
+use App\Mail\Websitemail;
+use Illuminate\Support\Facades\Hash;
+use Auth;
 
 class AdminLoginController extends Controller
 {
